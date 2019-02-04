@@ -15,14 +15,11 @@ pip3 install neovim
 ```
 
 ### 2. Font
-```shell
-cd ~/Library/Fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font Complete.otf" https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20for%20Powerline%20Nerd%20Font%20Complete.otf
-```
-And set your terminal fonts to "Droid Sans Mono for Powerline Nerd Font Complete"
+Install Nerd Fonts
 
 ### 3. Configurations & Plugins
 ```shell
-git clone https://github.com/hiyali/nvim.git ~/.config/nvim
+git clone https://github.com/clarksoncj/nvim.git ~/.config/nvim
 nvim ~/.config/nvim/config/init.vimrc
 :PlugInstall <CR>
 ```
